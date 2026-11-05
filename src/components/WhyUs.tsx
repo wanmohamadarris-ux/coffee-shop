@@ -37,7 +37,7 @@ export default function WhyUs() {
     <section className="bg-sage-light/25 py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Why Ember & Oak"
+          eyebrow="Why Leaf Coffee"
           title="The Details Make the Difference"
           description="Anyone can serve coffee. We obsess over the hundred small decisions that turn a drink into a ritual."
         />

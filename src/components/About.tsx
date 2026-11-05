@@ -64,7 +64,7 @@ export default function About() {
               align="left"
               eyebrow="Our Story"
               title="More Than Just Coffee."
-              description="Ember & Oak began with a simple belief — that a great cup of coffee can slow down a day, warm a room, and bring people together. What started as a tiny cart by the river has grown into a neighbourhood café, but the obsession hasn't changed: coffee, done properly."
+              description="Leaf Coffee began with a simple belief — that a great cup of coffee can slow down a day, warm a room, and bring people together. What started as a tiny cart by the river has grown into a neighbourhood café, but the obsession hasn't changed: coffee, done properly."
             />
 
             <div className="mt-8 space-y-4 text-[15px] leading-relaxed text-ink/70">

@@ -60,7 +60,7 @@ export default function Navbar() {
                 scrolled ? "text-olive" : "text-cream"
               )}
             >
-              Ember &amp; Oak
+              Leaf Coffee
             </span>
             <span
               className={clsx(

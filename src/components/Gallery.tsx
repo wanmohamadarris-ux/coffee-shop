@@ -61,7 +61,7 @@ export default function Gallery() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
           eyebrow="Gallery"
-          title="A Day at Ember & Oak"
+          title="A Day at Leaf Coffee"
           description="The beans, the bar, the people — here's what a morning here looks like."
         />
 

@@ -20,7 +20,7 @@ import SectionHeading from "./SectionHeading";
 const PLACEHOLDER = {
   address: "[Café Address — e.g. Lot 12, Jalan Example, Kuala Lumpur]",
   phone: "+60 XX-XXXX XXXX",
-  email: "hello@emberandoak.example",
+  email: "hello@leafcoffee.example",
   whatsapp: "60123456789", // digits only, no '+'
   hours: [
     ["Mon – Fri", "7:30 AM – 9:00 PM"],
@@ -158,7 +158,7 @@ export default function Contact() {
             <Reveal delay={2}>
               <a
                 href={`https://wa.me/${PLACEHOLDER.whatsapp}?text=${encodeURIComponent(
-                  "Hi Ember & Oak! I'd like to place an order."
+                  "Hi Leaf Coffee! I'd like to place an order."
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

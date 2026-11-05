@@ -24,7 +24,7 @@ const TESTIMONIALS = [
   {
     name: "Mei Ling Tan",
     role: "Food blogger",
-    text: "As someone who reviews cafés for a living, Ember & Oak is genuinely top-tier. The Basque cheesecake alone deserves five stars.",
+    text: "As someone who reviews cafés for a living, Leaf Coffee is genuinely top-tier. The Basque cheesecake alone deserves five stars.",
     rating: 5,
     initials: "MT",
     color: "bg-sage-dark",

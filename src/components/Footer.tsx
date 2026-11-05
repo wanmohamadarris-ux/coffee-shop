@@ -26,7 +26,7 @@ export default function Footer() {
                 <Coffee className="h-5 w-5" />
               </span>
               <span className="flex flex-col leading-none">
-                <span className="font-serif text-xl font-bold">Ember &amp; Oak</span>
+                <span className="font-serif text-xl font-bold">Leaf Coffee</span>
                 <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-cream/50">
                   Specialty Coffee
                 </span>
@@ -92,7 +92,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-3">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-gold/70" />
-                <span>hello@emberandoak.example</span>
+                <span>hello@leafcoffee.example</span>
               </li>
             </ul>
           </div>
@@ -120,7 +120,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-cream/10 pt-8 text-xs text-cream/45 sm:flex-row">
-          <p>© {new Date().getFullYear()} Ember &amp; Oak Coffee. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Leaf Coffee. All rights reserved.</p>
           <p>Crafted with care in Kuala Lumpur · Placeholder content for demo</p>
         </div>
       </div>

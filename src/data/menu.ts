@@ -164,7 +164,7 @@ export const MENU_ITEMS: MenuItem[] = [
   // Signature
   {
     id: "sig-1",
-    name: "Ember & Oak Latte",
+    name: "Leaf Coffee Latte",
     description: "Our signature — smoked maple, oak-aged cold brew and velvet foam.",
     price: 19.9,
     image: u("photo-1461023058943-07fcbe16d735"),

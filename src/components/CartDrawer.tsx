@@ -8,7 +8,7 @@ export default function CartDrawer() {
   const { isOpen, closeCart, lines, setQuantity, removeItem, total, count } = useCart();
 
   const whatsappMessage = encodeURIComponent(
-    `Hi Ember & Oak! I'd like to order:\n${lines
+    `Hi Leaf Coffee! I'd like to order:\n${lines
       .map((l) => `• ${l.quantity}x ${l.name} (RM ${(l.price * l.quantity).toFixed(2)})`)
       .join("\n")}\n\nTotal: RM ${total.toFixed(2)}`
   );

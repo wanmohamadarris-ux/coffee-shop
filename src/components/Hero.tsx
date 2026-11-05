@@ -39,7 +39,7 @@ export default function Hero() {
 
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-cream/80">
             Small-batch, single-origin coffee roasted with care and brewed by
-            hands that love the craft. Step into Ember &amp; Oak — where every
+            hands that love the craft. Step into Leaf Coffee — where every
             cup tells a story.
           </p>
 

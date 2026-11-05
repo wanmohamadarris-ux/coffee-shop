@@ -16,12 +16,12 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Ember & Oak — Specialty Coffee Shop",
+  title: "Leaf Coffee — Specialty Coffee Shop",
   description:
     "A perfect cup, a better day. Premium single-origin coffee, artisan pastries and a cozy atmosphere. Order online for pickup or delivery.",
   keywords: ["coffee shop", "specialty coffee", "latte", "espresso", "Malaysia", "cafe"],
   openGraph: {
-    title: "Ember & Oak — Specialty Coffee Shop",
+    title: "Leaf Coffee — Specialty Coffee Shop",
     description: "A perfect cup, a better day. Premium specialty coffee and artisan pastries.",
     type: "website",
   },

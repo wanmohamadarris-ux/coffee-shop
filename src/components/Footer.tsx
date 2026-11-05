@@ -1,5 +1,4 @@
-import { MapPin, Clock, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
-import Logo from "./Logo";
+import { Coffee, MapPin, Clock, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
 
 const NAV = [
   { label: "Home", href: "#home" },
@@ -22,8 +21,16 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <a href="#home">
-              <Logo light />
+            <a href="#home" className="flex items-center gap-2.5">
+              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gold text-olive-dark">
+                <Coffee className="h-5 w-5" />
+              </span>
+              <span className="flex flex-col leading-none">
+                <span className="font-serif text-xl font-bold">Leaf Coffee</span>
+                <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-cream/50">
+                  Specialty Coffee
+                </span>
+              </span>
             </a>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-cream/60">
               Small-batch specialty coffee, artisan pastries, and a warm corner

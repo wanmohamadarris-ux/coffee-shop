@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Coffee, Menu as MenuIcon, X, ShoppingBag } from "lucide-react";
+import { Menu as MenuIcon, X, ShoppingBag } from "lucide-react";
 import clsx from "clsx";
 import { useCart } from "./CartContext";
+import Logo from "./Logo";
 
 const LINKS = [
   { label: "Home", href: "#home" },
@@ -44,33 +45,8 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 py-4 md:px-8" aria-label="Main navigation">
         {/* Logo */}
-        <a href="#home" className="group flex items-center gap-2.5">
-          <span
-            className={clsx(
-              "flex h-10 w-10 items-center justify-center rounded-full transition-colors",
-              scrolled ? "bg-olive text-gold" : "bg-cream/15 text-gold backdrop-blur-sm"
-            )}
-          >
-            <Coffee className="h-5 w-5" />
-          </span>
-          <span className="flex flex-col leading-none">
-            <span
-              className={clsx(
-                "font-serif text-xl font-bold tracking-wide transition-colors",
-                scrolled ? "text-olive" : "text-cream"
-              )}
-            >
-              Leaf Coffee
-            </span>
-            <span
-              className={clsx(
-                "text-[10px] font-medium uppercase tracking-[0.25em] transition-colors",
-                scrolled ? "text-olive/60" : "text-cream/70"
-              )}
-            >
-              Specialty Coffee
-            </span>
-          </span>
+        <a href="#home">
+          <Logo light={!scrolled} />
         </a>
 
         {/* Desktop links */}

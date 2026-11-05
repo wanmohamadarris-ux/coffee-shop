@@ -140,7 +140,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Ceremonial Matcha Latte",
     description: "Stone-ground Uji matcha whisked to order with oat milk.",
     price: 15.9,
-    image: u("photo-1521302200778-3358122e0307"),
+    image: u("photo-1576092768241-dec231879fc3"),
     category: "matcha",
     tag: "Signature",
   },
@@ -149,7 +149,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Iced Matcha",
     description: "Chilled matcha over ice with a touch of honey.",
     price: 14.9,
-    image: u("photo-1515823064-d9039ef60c0f"),
+    image: u("photo-1564890369478-c89ca6d9cde9"),
     category: "matcha",
   },
   {
